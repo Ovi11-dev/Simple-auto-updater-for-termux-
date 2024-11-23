@@ -1,4 +1,4 @@
-#mini english guide/ mini guia en ingles 
+# mini english guide/ mini guia en ingles 
 
 # How to get this script on your Termux?
 
