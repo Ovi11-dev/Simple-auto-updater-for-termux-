@@ -30,4 +30,54 @@ Stopping the script is relatively easy; just follow these 3 steps, but only use 
 ## 3. Script Usage Policy:
 By using this script, you agree that any malicious use of the script is the user's responsibility. Although it is safe, it may contain errors. The original programmer of this script (Ovi11-dev) disclaims any liability and makes it clear that its use is at your own risk.
 
-# End
+#End
+
+#guia en español/spanish guide
+
+## 1. ¿Cómo usar el script?
+Para usar mi script, ¡solo necesitas 3 pasos! **Paso 
+1:** Primero, ve a la carpeta principal. Si está en el 
+"Home" de tu terminal, simplemente navega hasta ella con 
+el comando `cd auto_updater`. **Paso 2:** Si ya estás 
+dentro, ejecuta el siguiente comando `chmod +x 
+auto_updater.sh` para darle permiso de ejecución a mi 
+script. Si tienes dudas sobre su contenido y quieres 
+sentirte seguro, puedes ver el código fuente del script 
+usando `cat auto_updater.sh` en tu terminal.
+ **Paso 3:** Ahora que todo está listo, simplemente 
+ ejecuta en tu terminal: `./auto_updater.sh &`. ¡Y 
+ listo! El script actualiza tus paquetes APT y PKG 
+ automáticamente. Es infinito y el ciclo de 
+ actualización es de 24 horas, por lo que desde la 
+ primera actualización, esperarás 24 horas.
+**Importante:** Al ejecutar el script, no olvides poner 
+un `&` al final para asegurarte de que se actualiza en 
+segundo plano o continúa haciéndolo incluso si cierras 
+Termux.
+## 2. Cómo detener el script:
+Detener el script es relativamente fácil; solo sigue 
+estos 3 pasos, pero usa el último solo como último 
+recurso/emergencia. **Método 1:** Ejecuta el comando 
+`jobs` en tu terminal. Esto hará que aparezcan los 
+procesos en segundo plano. Identifica el proceso con el 
+nombre `./auto_updater.sh &` y busca su ID de trabajo al 
+principio de la línea.  Ahora que ya tienes tu ID de 
+trabajo, ejecuta el comando `kill %<JobID>`, y recuerda 
+reemplazar `<JobID>` con el ID de trabajo real. **Método 
+2:** Si el método anterior no funciona y el proceso no 
+se detiene, ejecuta el comando nuevamente con `-9`: 
+`kill -9 %<JobID>`. **Método 3:** ¡Advertencia! ESTE 
+MÉTODO ES MUY FUERTE Y SOLO DEBE USARSE COMO ÚLTIMO 
+RECURSO O EN CASO DE EMERGENCIA. El programador original 
+de este script (Ovi11-dev) no se hace responsable de 
+ningún problema que pueda surgir como consecuencia. Como 
+último recurso, ve a Configuración > Configuración de la 
+aplicación > Termux > Forzar detención.
+## 3. Política de uso del script:
+Al usar este script, aceptas que cualquier uso 
+malintencionado del mismo es responsabilidad del 
+usuario. Aunque es seguro, puede contener errores.  El 
+programador original de este script (Ovi11-dev) se exime 
+de cualquier responsabilidad y deja claro que su uso es 
+bajo su propio riesgo.
+# Fin
