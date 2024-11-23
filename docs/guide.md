@@ -6,7 +6,7 @@ This guide has 2 languages available
 First, we'll go with the English one, then with the Spanish one.
 Primero vamos con la de inglés, luego con la de español.
 
-# English guide:
+# >  English guide:
 ## 1. How to use the script?
 To use my script, you need only 3 steps!
 
@@ -32,7 +32,7 @@ By using this script, you agree that any malicious use of the script is the user
 
 #End
 
-##guia en español/spanish guide
+## > guia en español/spanish guide
 
 ## 1. ¿Cómo usar el script?
 Para usar mi script, ¡solo necesitas 3 pasos! **Paso 
