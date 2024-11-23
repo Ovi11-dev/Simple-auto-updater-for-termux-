@@ -32,7 +32,7 @@ By using this script, you agree that any malicious use of the script is the user
 
 #End
 
-#guia en español/spanish guide
+##guia en español/spanish guide
 
 ## 1. ¿Cómo usar el script?
 Para usar mi script, ¡solo necesitas 3 pasos! **Paso 
