@@ -36,6 +36,12 @@ Now as a last step navigate to the script directory using `cd ~/auto_updater` No
 
 > for more information go to the script's docs folder and see the extra instructions in the guide.md file
 
+ ---
+
+## extra:
+
+**If you need a better example you could watch this little [Showcase that I uploaded to my Youtube channel](https://youtu.be/EiNhHAXjqbo?si=U-eNe8sFdYRKaAYa)**
+
 ## mini spanish guide/mini guia en español
 
 # ¿Cómo tener este script en tu termux?
@@ -76,5 +82,13 @@ Ahora como ultimo paso navega hacia el directorio del script usando `cd ~/auto_u
 ### ¡Y listo! Ya tendras tu script listo 
 
 > para mas información ve a al carpeta docs del script y ve las instrucciones extras en el archivo guide.md
+
+---
+
+## extra:
+
+**Si necesitas un mejor ejemplo podrias ver este pequeño [Showcase que subi a mi canal de Youtube](https://youtu.be/EiNhHAXjqbo?si=U-eNe8sFdYRKaAYa)**
+
+
 
 
